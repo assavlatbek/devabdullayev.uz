@@ -1,0 +1,7 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("https://media.istockphoto.com/id/1414981473/photo/futuristic-flight-through-a-digital-line-landscape-blue-dust-particle-abstract-background-3d.webp?b=1&s=170667a&w=0&k=20&c=nR3IdRbSFibEagWhoCRY_d-WyEJJSv0BLcIsmJJYN5M="),
+    no-repeat;
+  background-size: cover;
+}
