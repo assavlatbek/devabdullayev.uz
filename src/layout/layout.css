@@ -18,8 +18,9 @@ header .logo h1 {
   transition: 0.5s all;
   animation: color 3s ease infinite;
   cursor: pointer;
-  font-size: 25px;
-  letter-spacing: 2px;
+  font-size: 29px;
+  letter-spacing: 3px;
+  font-weight: 650;
 }
 
 .logo a {
@@ -52,20 +53,15 @@ header .navs {
   font-size: 16px;
   font-weight: 400;
   padding: 6px 20px;
+  font-weight: 500;
   line-height: 28px;
 }
 
 .navigation a:hover,
 .navigation .active:hover {
-  border: 1px solid #fff;
-  border-radius: 5px;
+  padding-top: 2px;
+  border-bottom: 1.5px solid #fff;
   letter-spacing: 1.2px !important;
-}
-
-.navigation .active {
-  border: 1px solid #fff;
-  border-radius: 5px;
-  letter-spacing: 1px !important;
 }
 
 .menu {
@@ -90,7 +86,7 @@ header .navs {
   height: 82px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   header {
     transition: 0.3s all;
     padding: 10px 0 !important;
