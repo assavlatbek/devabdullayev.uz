@@ -1,11 +1,18 @@
 header {
-  position: absolute;
-  transition: 0.5s all;
+  position: fixed;
+  transition: 0.3s all;
   background: transparent;
   z-index: 9999;
   color: #fff !important;
   width: 100%;
+  padding: 30px 0 !important;
+}
+
+.navbar-shrink {
+  transition: 0.3s all;
   padding: 20px 0 !important;
+  background: #00000072;
+  backdrop-filter: blur(25px);
 }
 
 header nav {

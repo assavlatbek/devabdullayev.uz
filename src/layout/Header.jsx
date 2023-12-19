@@ -4,6 +4,20 @@ import CustomLink from "../components/link";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [navbarClass, setNavbarClass] = useState("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 10) {
+        setNavbarClass("navbar-shrink");
+      } else {
+        setNavbarClass("");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -19,7 +33,7 @@ function Header() {
   }, [menuOpen]);
 
   return (
-    <header>
+    <header className={`${navbarClass}`}>
       <nav className="container">
         <div className="logo">
           <a href={"/"}>

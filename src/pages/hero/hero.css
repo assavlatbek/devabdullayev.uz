@@ -1,9 +1,7 @@
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://www.backhousemedia.com/wp-content/uploads/2017/05/Website-design-BG.jpg"),
-    no-repeat;
-  background-size: cover;
+  background: url("../../images/bg.jpg"), repeat;
   clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
 }
 
@@ -50,7 +48,7 @@
   letter-spacing: 1.2px;
   -webkit-background-clip: text;
   margin: 5px 0;
-  font-size: 35px;
+  font-size: 85px;
 }
 
 #hero .hero-img {
@@ -62,10 +60,22 @@
 
 #hero .image-card {
   border: 5px solid #fff;
-  padding: 0 15px 0 5px;
+  padding: 0 15px 0 3px;
   border-radius: 50% 50% 0 0;
-  background: #00000031;
-  backdrop-filter: blur("20px");
+  background: #0000006a;
+  backdrop-filter: blur("10px");
+  overflow: hidden;
+}
+
+.hero-me {
+  transition: 0.3s all !important;
+  width: 400px;
+  height: 400px;
+  transform: scale(1.03);
+}
+
+.hero-me:hover {
+  transform: scale(1.13);
 }
 
 @media (max-width: 1022px) {
@@ -75,7 +85,7 @@
   #hero .hero-row {
     display: block;
     height: auto;
-    padding: 40px 0;
+    padding: 80px 0;
   }
 
   .hero-txt {
@@ -83,6 +93,15 @@
     display: flex !important;
     justify-content: center !important;
     text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 50px;
+  }
+
+  .hero-me {
+    width: 300px;
+    height: 300px;
   }
 
   .hero-txt .icons {

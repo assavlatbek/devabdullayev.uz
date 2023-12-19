@@ -1,0 +1,26 @@
+.about-img-card {
+  text-align: center;
+}
+
+.about-text-card {
+  width: 80% !important;
+}
+
+.about-img-card img {
+  height: 400px;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 50px;
+  object-position: right;
+}
+
+@media (max-width: 1020px) {
+  .about-text-card {
+    width: 100% !important;
+  }
+  .about-img-card img {
+    width: 100%;
+    object-position: center;
+    height: 300px;
+  }
+}

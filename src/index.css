@@ -3,7 +3,6 @@
 
 /* styles */
 @import url("./layout/layout.css");
-@import url("./pages/pages.css");
 
 * {
   margin: 0;
@@ -15,7 +14,7 @@
 body::-webkit-scrollbar {
   transition: 0.5s all;
   -webkit-appearance: none;
-  width: 2px;
+  width: 5px;
   top: 0;
   right: 0;
 }
@@ -34,4 +33,61 @@ body::-webkit-scrollbar-track {
   padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.row {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.theme-color {
+  color: #1c69f9;
+}
+
+.section-title {
+  position: relative;
+  color: #1c69f9;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  margin-top: 10px;
+  top: 56px;
+  left: 50%;
+  width: 140px;
+  height: 4px;
+  background: #1c69f9;
+  transform: translateX(-50%);
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  margin-top: 10px;
+  top: 50px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #1c69f9;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1020px) {
+  .row {
+    display: block;
+    text-align: center;
+  }
+  .row div {
+    width: 100%;
+  }
 }
