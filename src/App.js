@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./layout";
 import HeroPage from "./pages/hero";
 import AboutPage from "./pages/about";
+import SkillsPage from "./pages/skills";
 
 const App = () => {
   return (
@@ -9,6 +10,9 @@ const App = () => {
       <Layout>
         <HeroPage />
         <AboutPage />
+        <br />
+        <br />
+        <SkillsPage />
       </Layout>
     </>
   );

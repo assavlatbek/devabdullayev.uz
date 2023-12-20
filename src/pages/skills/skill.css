@@ -1,0 +1,26 @@
+#skills {
+  background: url("../../images/skills-bg.png");
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#skills .container {
+  text-align: center;
+}
+
+#skills .skill {
+  user-select: none;
+}
+
+#skills .skill h2 {
+  color: #fff;
+  font-weight: 750;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize !important;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}

@@ -56,16 +56,8 @@ const HeroPage = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="hero-img"
-              data-aos="flip-left"
-              data-aos-delay="2800"
-            >
-              <div
-                className="image-card"
-                data-aos="fade-up"
-                data-aos-delay="2800"
-              >
+            <div className="hero-img" data-aos="fade-up" data-aos-delay="2800">
+              <div className="image-card">
                 <LazyLoadImage
                   className="hero-me"
                   effect="blur"

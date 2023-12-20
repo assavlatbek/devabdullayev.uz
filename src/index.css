@@ -11,6 +11,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
   transition: 0.5s all;
   -webkit-appearance: none;

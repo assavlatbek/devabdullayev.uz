@@ -30,9 +30,10 @@ const AboutPage = () => {
             <p>
               I am a front-end developer. I have been learning programming for{" "}
               <b className="theme-color">3 years</b>, first I learned from free
-              lessons on YouTube, and then I bought the course "Samar
-              Badriddinov" in Mohirdev, I finished everything online. And in the
-              end I successfully finished the training center{" "}
+              lessons on <b className="theme-color">YouTube</b>, and then I
+              bought the course "Samar Badriddinov" in{" "}
+              <b className="theme-color">Mohirdev</b>, I finished everything
+              online. And in the end I successfully finished the training center{" "}
               <b className="theme-color">"Najot Ta'lim"</b>. I'm currently
               looking for job!
             </p>
@@ -44,9 +45,42 @@ const AboutPage = () => {
             </p>
             <br />
             <p>
-              <p>2. odynovotours.uz - Tour services</p>
-              <p>2. united4travel.uz - Tour services</p>
-              <p>2. tradeandtravel.uz - Tour services</p>
+              <p>
+                <b>1.</b>{" "}
+                <a
+                  href="https://libertytravel.uz"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="theme-color"
+                >
+                  libertytravel.uz
+                </a>{" "}
+                - Tour services
+              </p>
+              <p>
+                <b>2.</b>{" "}
+                <a
+                  href="https://united4travel.uz"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="theme-color"
+                >
+                  united4travel.uz
+                </a>{" "}
+                - Tour services
+              </p>
+              <p>
+                <b>3.</b>{" "}
+                <a
+                  href="https://tradeandtravel.uz"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="theme-color"
+                >
+                  tradeandtravel.uz
+                </a>{" "}
+                - Tour services
+              </p>
             </p>
           </div>
         </div>

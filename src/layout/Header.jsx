@@ -49,16 +49,6 @@ function Header() {
             <CustomLink onClick={() => setMenuOpen(false)} targetId="about">
               About
             </CustomLink>
-
-            <CustomLink
-              onClick={() => setMenuOpen(false)}
-              targetId="experience"
-            >
-              Experiences
-            </CustomLink>
-            <CustomLink onClick={() => setMenuOpen(false)} targetId="education">
-              Educations
-            </CustomLink>
             <CustomLink onClick={() => setMenuOpen(false)} targetId="portfolio">
               Portfolios
             </CustomLink>
