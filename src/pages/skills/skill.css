@@ -12,19 +12,14 @@
   user-select: none;
 }
 
-#skills .skill h2 {
-  color: #fff;
-  font-weight: 750;
-  font-size: 25px;
-  letter-spacing: 1.2px;
-  text-transform: capitalize !important;
-}
-
 .slick-slider .slick-next {
+  right: 0 !important;
   position: absolute !important;
   background-color: transparent !important;
 }
 .slick-slider .slick-prev {
+  left: 0;
+  font-size: 20px !important;
   position: absolute !important;
   background-color: transparent !important;
 }
