@@ -20,7 +20,11 @@
   text-transform: capitalize !important;
 }
 
-.slick-prev,
-.slick-next {
-  display: none !important;
+.slick-slider .slick-next {
+  position: absolute !important;
+  background-color: transparent !important;
+}
+.slick-slider .slick-prev {
+  position: absolute !important;
+  background-color: transparent !important;
 }

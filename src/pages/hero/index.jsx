@@ -62,6 +62,7 @@ const HeroPage = () => {
                   className="hero-me"
                   effect="blur"
                   src={me}
+                  style={{ width: "300px", height: "300px" }}
                   alt="me"
                 />
               </div>

@@ -69,8 +69,8 @@
 
 .hero-me {
   transition: 0.3s all !important;
-  width: 400px;
-  height: 400px;
+  width: 400px !important;
+  height: 400px !important;
   transform: scale(1.03);
 }
 
@@ -100,8 +100,8 @@
   }
 
   .hero-me {
-    width: 300px;
-    height: 300px;
+    width: 300px !important;
+    height: 300px !important;
   }
 
   .hero-txt .icons {
