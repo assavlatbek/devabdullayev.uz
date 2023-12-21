@@ -14,7 +14,7 @@
 }
 
 .slick-slider .slick-next {
-  right: 0 !important;
+  right: 8px !important;
   z-index: 99999999999999 !important;
 }
 
