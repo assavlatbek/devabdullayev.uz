@@ -7,9 +7,11 @@ const AboutPage = () => {
   return (
     <section id="about">
       <div className="container">
-        <h1 className="section-title" data-aos="flip-right">
-          About
-        </h1>
+        <div className="section-title-div">
+          <h1 className="section-title" data-aos="flip-right">
+            About
+          </h1>
+        </div>
         <div className="row">
           <div className="about-img-card" data-aos="zoom-in-up">
             <LazyLoadImage
@@ -25,7 +27,7 @@ const AboutPage = () => {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <h1 className="">Hi there</h1>
+            <h1 className="about-txt-title">Hello, I'm Savlatbek</h1>
             <br />
             <p>
               I am a front-end developer. I have been learning programming for{" "}

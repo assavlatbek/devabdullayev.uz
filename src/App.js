@@ -10,8 +10,6 @@ const App = () => {
       <Layout>
         <HeroPage />
         <AboutPage />
-        <br />
-        <br />
         <SkillsPage />
       </Layout>
     </>

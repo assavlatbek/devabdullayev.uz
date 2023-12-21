@@ -51,39 +51,22 @@ body::-webkit-scrollbar-track {
 }
 
 .section-title {
-  position: relative;
   color: #1c69f9;
   text-align: center;
   font-size: 50px;
   letter-spacing: 2px;
   font-weight: 700;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section-title::before {
-  content: "";
-  position: absolute;
-  margin-top: 10px;
-  top: 56px;
-  left: 50%;
-  width: 140px;
-  height: 4px;
-  background: #1c69f9;
-  transform: translateX(-50%);
+  content: "• ";
+  font-size: 45px;
 }
-
 .section-title::after {
-  content: "";
-  position: absolute;
-  margin-top: 10px;
-  top: 50px;
-  left: 50%;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #1c69f9;
-  transform: translateX(-50%);
+  content: " •";
+  font-size: 45px;
 }
 
 @media (max-width: 1020px) {
