@@ -5,9 +5,11 @@
 @import url("./layout/layout.css");
 
 * {
+  transition: 0.3s all;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -68,6 +70,22 @@ body::-webkit-scrollbar-track {
 .section-title::after {
   content: " •";
   font-size: 45px;
+}
+
+.hover-content:hover {
+  animation: rotate 0.5s ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
 
 @media (max-width: 1020px) {

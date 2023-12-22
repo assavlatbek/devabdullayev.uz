@@ -3,6 +3,7 @@ import Layout from "./layout";
 import HeroPage from "./pages/hero";
 import AboutPage from "./pages/about";
 import SkillsPage from "./pages/skills";
+import PortfolioPage from "./pages/portfolio";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <HeroPage />
         <AboutPage />
         <SkillsPage />
+        <PortfolioPage />
       </Layout>
     </>
   );
