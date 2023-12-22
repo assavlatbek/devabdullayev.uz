@@ -64,6 +64,7 @@
   padding: 0 15px 0 3px;
   border-radius: 50% 50% 0 0;
   background: #0000006a;
+  z-index: 999999;
   backdrop-filter: blur("10px");
   overflow: hidden;
 }
@@ -72,6 +73,7 @@
   transition: 0.3s all !important;
   width: 400px;
   height: 400px;
+  z-index: 0;
   transform: scale(1.03);
 }
 
@@ -81,7 +83,7 @@
 
 .me-text-container {
   position: absolute;
-  top: 90vh;
+  bottom: 1vh;
 }
 
 .me-text {
@@ -147,7 +149,11 @@
     padding-right: 0 !important;
     margin: 40px 0;
   }
+
+  #hero {
+    padding-bottom: 10px !important;
+  }
   .me-text-container {
-    top: 110vh;
+    display: none !important;
   }
 }

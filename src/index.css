@@ -73,7 +73,7 @@ body::-webkit-scrollbar-track {
 }
 
 .hover-content:hover {
-  animation: rotate 0.5s ease-in-out;
+  animation: rotate 1s linear;
 }
 
 @keyframes rotate {
