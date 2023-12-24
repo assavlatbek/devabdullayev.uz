@@ -72,22 +72,6 @@ body::-webkit-scrollbar-track {
   font-size: 45px;
 }
 
-.hover-content:hover {
-  animation: rotate 1s linear;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50% {
-    transform: rotateY(180deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
-}
-
 @media (max-width: 1020px) {
   .row {
     display: block;

@@ -6,6 +6,15 @@
   padding-bottom: 250px !important;
 }
 
+#hero * {
+  transition: 0.3s all;
+}
+
+#hero h2:hover,
+#hero h1:hover {
+  letter-spacing: 2px;
+}
+
 #hero .hero-row {
   display: flex;
   justify-content: space-between;
@@ -23,12 +32,17 @@
 }
 
 #hero .icon {
+  transition: 0.3s all;
   color: #fff;
   font-size: 25px;
   margin-right: 30px;
   background: radial-gradient(circle, #30f 0, #00ccff 100%);
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+#hero .icon:hover {
+  transform: scale(1.2);
 }
 
 #hero h2 {

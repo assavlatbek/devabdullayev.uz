@@ -1,5 +1,6 @@
 import me from "../../images/me.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { motion } from "framer-motion";
 
 import "./hero.css";
 import { useEffect, useRef } from "react";
@@ -10,6 +11,8 @@ const HeroPage = () => {
   const firstText = useRef(null);
   const secondText = useRef(null);
   const slider = useRef(null);
+  const constraintsRef = useRef(null);
+
   let xPercent = 0;
   let direction = +1;
 
@@ -64,17 +67,18 @@ const HeroPage = () => {
                     href="https://github.com/Savlatbek009"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon hover-content"
+                    className="icon"
                   >
                     <i class="fa-brands fa-github"></i>
                   </a>
+
                   <a
                     data-aos="flip-right"
                     data-aos-delay="2000"
                     href="https://t.me/as_savlatbek"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon hover-content"
+                    className="icon"
                   >
                     <i class="fa-brands fa-telegram"></i>
                   </a>
@@ -84,7 +88,7 @@ const HeroPage = () => {
                     href="https://www.instagram.com/savlatbek_coder"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon hover-content"
+                    className="icon"
                   >
                     <i class="fa-brands fa-instagram"></i>
                   </a>

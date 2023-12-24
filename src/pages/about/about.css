@@ -20,8 +20,8 @@
   height: 450px;
   width: 80%;
   object-fit: cover;
+  object-position: top !important;
   border-radius: 50px;
-  object-position: right;
 }
 
 .about-text-card p {
