@@ -2,6 +2,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import me from "../../images/me2.jpg";
 
 import "./about.css";
+import { TypeAnimation } from "react-type-animation";
 
 const AboutPage = () => {
   return (
@@ -27,63 +28,74 @@ const AboutPage = () => {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <h1 className="about-txt-title">Hello, I'm Savlatbek</h1>
-            <br />
-            <p>
-              I am a front-end developer. I have been learning programming for{" "}
-              <b className="theme-color">3 years</b>, first I learned from free
-              lessons on <b className="theme-color">YouTube</b>, and then I
-              bought the course "Samar Badriddinov" in{" "}
-              <b className="theme-color">Mohirdev</b>, I finished everything
-              online. And in the end I successfully finished the training center{" "}
-              <b className="theme-color">"Najot Ta'lim"</b>. I'm currently
-              looking for job!
-            </p>
-            <br />
-            <p>
-              I have some experience and Currently,{" "}
-              <b className="theme-color">3+ real projects</b> that I made are
-              working in the ".uz" domain.
-            </p>
-            <br />
-            <p>
-              <p>
-                <b>1.</b>{" "}
-                <a
-                  href="https://libertytravel.uz"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="theme-color"
-                >
-                  libertytravel.uz
-                </a>{" "}
-                - Tour services
-              </p>
-              <p>
-                <b>2.</b>{" "}
-                <a
-                  href="https://united4travel.uz"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="theme-color"
-                >
-                  united4travel.uz
-                </a>{" "}
-                - Tour services
-              </p>
-              <p>
-                <b>3.</b>{" "}
-                <a
-                  href="https://tradeandtravel.uz"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="theme-color"
-                >
-                  tradeandtravel.uz
-                </a>{" "}
-                - Tour services
-              </p>
-            </p>
+            <TypeAnimation
+              sequence={[
+                <>
+                  {" "}
+                  <h1 className="about-txt-title">Hello, I'm Savlatbek</h1>
+                  <br />
+                  <p>
+                    I am a front-end developer. I have been learning programming
+                    for <b className="theme-color">3 years</b>, first I learned
+                    from free lessons on <b className="theme-color">YouTube</b>,
+                    and then I bought the course "Samar Badriddinov" in{" "}
+                    <b className="theme-color">Mohirdev</b>, I finished
+                    everything online. And in the end I successfully finished
+                    the training center{" "}
+                    <b className="theme-color">"Najot Ta'lim"</b>. I'm currently
+                    looking for job!
+                  </p>
+                  <br />
+                  <p>
+                    I have some experience and Currently,{" "}
+                    <b className="theme-color">3+ real projects</b> that I made
+                    are working in the ".uz" domain.
+                  </p>
+                  <br />
+                  <p>
+                    <p>
+                      <b>1.</b>{" "}
+                      <a
+                        href="https://libertytravel.uz"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="theme-color"
+                      >
+                        libertytravel.uz
+                      </a>{" "}
+                      - Tour services
+                    </p>
+                    <p>
+                      <b>2.</b>{" "}
+                      <a
+                        href="https://united4travel.uz"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="theme-color"
+                      >
+                        united4travel.uz
+                      </a>{" "}
+                      - Tour services
+                    </p>
+                    <p>
+                      <b>3.</b>{" "}
+                      <a
+                        href="https://tradeandtravel.uz"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="theme-color"
+                      >
+                        tradeandtravel.uz
+                      </a>{" "}
+                      - Tour services
+                    </p>
+                  </p>
+                </>,
+              ]}
+              wrapper="h1"
+              speed={50}
+              repeat={Infinity}
+            />
           </div>
         </div>
       </div>
