@@ -24,13 +24,16 @@ const PortfolioPage = () => {
           Portfolios
         </h1>
         <Tabs data-aos="fade-left">
-          <TabList>
-            <Tab>All</Tab>
-            <Tab>Html Css</Tab>
-            <Tab>JavaScript</Tab>
-            <Tab>ReactJS</Tab>
-            <Tab>NextJS</Tab>
-          </TabList>
+          <div className="tab-headers">
+            <TabList>
+              <Tab>All</Tab>
+              <Tab>Html Css</Tab>
+              <Tab>JavaScript</Tab>
+              <Tab>ReactJS</Tab>
+              <Tab>NextJS</Tab>
+            </TabList>
+          </div>
+
           <TabPanel>
             <div className="portfolio-row">
               <PortfolioCard

@@ -21,7 +21,7 @@ body {
 body::-webkit-scrollbar {
   transition: 0.5s all;
   -webkit-appearance: none;
-  width: 5px;
+  width: 10px;
   top: 0;
   right: 0;
 }

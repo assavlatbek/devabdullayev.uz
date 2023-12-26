@@ -6,6 +6,34 @@
   overflow-x: hidden;
 }
 
+.tab-headers {
+  display: flex;
+  justify-content: center;
+}
+
+.react-tabs__tab-list {
+  border: none !important;
+}
+
+.react-tabs__tab {
+  transition: 0.3s all !important;
+  border: 1.5 solid transparent !important;
+  font-size: 19px !important;
+}
+
+.react-tabs__tab:hover {
+  letter-spacing: 2px !important;
+  color: #1b02ff !important;
+}
+.react-tabs__tab--selected {
+  border-bottom: 1.5px solid #1b02ff !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  letter-spacing: 2px !important;
+  color: #1b02ff !important;
+}
+
 .portfolio-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
