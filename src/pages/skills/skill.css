@@ -15,7 +15,7 @@
 
 .slick-slider .slick-next {
   right: 8px !important;
-  z-index: 99999999999999 !important;
+  z-index: 999 !important;
 }
 
 .slick-slider .slick-prev::before {
@@ -32,5 +32,5 @@
 
 .slick-slider .slick-prev {
   left: 0 !important;
-  z-index: 99999999999999 !important;
+  z-index: 999 !important;
 }

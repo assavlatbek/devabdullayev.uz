@@ -4,7 +4,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import me from "../../images/me2.jpg";
 
 import "./about.css";
-import "react-tabs/style/react-tabs.css";
 
 const AboutPage = () => {
   return (
