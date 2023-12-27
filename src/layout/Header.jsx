@@ -42,19 +42,11 @@ function Header() {
         </div>
 
         <div className={`navigation ${menuOpen ? "open" : "hide"}`}>
-          <div className="navs">
-            <CustomLink onClick={() => setMenuOpen(false)} targetId="hero">
-              Home
-            </CustomLink>
-            <CustomLink onClick={() => setMenuOpen(false)} targetId="about">
-              About
-            </CustomLink>
-            <CustomLink onClick={() => setMenuOpen(false)} targetId="portfolio">
-              Portfolios
-            </CustomLink>
-            <CustomLink onClick={() => setMenuOpen(false)} targetId="contact">
-              Contacts
-            </CustomLink>
+          <div onClick={() => setMenuOpen(false)} className="navs">
+            <CustomLink targetId="hero">Home</CustomLink>
+            <CustomLink targetId="about">About</CustomLink>
+            <CustomLink targetId="portfolio">Portfolios</CustomLink>
+            <CustomLink targetId="contact">Contacts</CustomLink>
           </div>
         </div>
         <div className={menuOpen ? `open-menu menu` : `menu`}>
