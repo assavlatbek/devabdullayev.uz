@@ -3,11 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const PortfolioCard = ({ img, title, descr, tags, link }) => {
   return (
-    <div
-      className={`portfolio-item`}
-      data-aos="flip-left"
-      data-aos-duration="700"
-    >
+    <div className={`portfolio-item`}>
       <LazyLoadImage width="100%" src={img} effect="blur" alt="portfolio" />
       <div className="portfolio-text">
         <h2 className="portfolio-name theme-color">{title}</h2>

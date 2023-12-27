@@ -95,6 +95,13 @@ header .navs {
   height: 82px;
 }
 
+footer {
+  padding: 20px 0;
+  background: #181818;
+  color: #fff;
+  margin-top: 20px;
+}
+
 @media (max-width: 1000px) {
   header {
     transition: 0.3s all;

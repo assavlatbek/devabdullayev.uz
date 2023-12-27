@@ -4,6 +4,7 @@ import HeroPage from "./pages/hero";
 import AboutPage from "./pages/about";
 import SkillsPage from "./pages/skills";
 import PortfolioPage from "./pages/portfolio";
+import ContactsPage from "./pages/contact";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <AboutPage />
         <SkillsPage />
         <PortfolioPage />
+        <ContactsPage />
       </Layout>
     </>
   );

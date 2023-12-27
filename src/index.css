@@ -21,7 +21,7 @@ body {
 body::-webkit-scrollbar {
   transition: 0.5s all;
   -webkit-appearance: none;
-  width: 10px;
+  width: 5px;
   top: 0;
   right: 0;
 }
@@ -47,6 +47,10 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+.no-link {
+  text-decoration: none !important;
 }
 
 .theme-color {
