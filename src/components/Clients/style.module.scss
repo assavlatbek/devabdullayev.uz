@@ -1,0 +1,73 @@
+.testimonials {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.testimonials_card {
+  padding: 0 10px;
+  margin: 40px 0;
+}
+
+.testimonials_card_style {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: var(--text-hover);
+  color: var(--card-color);
+  border-radius: 5px;
+}
+
+.testimonials_card_header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--card-color);
+  color: var(--text-hover);
+  padding: 20px 10px;
+  border-radius: 4px 4px 0 0;
+}
+
+.testimonials_card_descr {
+  margin: 24px 0;
+  font-size: 16px;
+  font-style: normal;
+  padding: 0 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+}
+
+.testimonials_card_rate {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  b:last-child {
+    color: rgb(255, 238, 0);
+    font-size: 19px;
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+  z-index: -9 !important;
+}
+
+.slick-dots li > button {
+  font-size: 15px;
+}
+
+.testimonials h1 {
+  text-align: center;
+  color: var(--card-color);
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+  span {
+    font-weight: 800;
+  }
+}

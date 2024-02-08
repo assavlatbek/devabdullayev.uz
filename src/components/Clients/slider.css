@@ -1,0 +1,4 @@
+.testimonials-slider .slick-prev,
+.testimonials-slider .slick-next {
+  display: none !important;
+}
