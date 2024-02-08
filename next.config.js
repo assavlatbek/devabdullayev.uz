@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  target: "serverless",
   images: {
     domains: [
       "w7.pngwing.com",
