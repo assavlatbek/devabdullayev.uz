@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: "build",
+  target: "serverless",
   images: {
     domains: [
       "w7.pngwing.com",
