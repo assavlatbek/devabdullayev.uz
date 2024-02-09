@@ -39,9 +39,9 @@
           justify-content: start;
           flex-wrap: wrap;
           gap: 0.5rem;
-          img {
+          img:not(#blackphoto) {
             object-fit: contain;
-            filter: invert(100%);
+            filter: invert(80%);
           }
           p {
             &:nth-child(2) {
@@ -84,4 +84,7 @@
       font-weight: 800;
     }
   }
+}
+#blackphoto {
+  filter: grayscale(100%) !important;
 }

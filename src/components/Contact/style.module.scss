@@ -126,9 +126,9 @@
 
 .contact_submit_button {
   min-width: auto;
-  background: #000;
+  background: var(--card-color);
   border: none;
-  color: #fff;
+  color: var(--primary-color);
   font-size: 19px;
   border-radius: 4px;
   padding: 10px 30px;
@@ -137,10 +137,10 @@
 }
 
 .contact__wrapper_text_socials button:not(.contact_submit_button) {
-  background: #000;
+  background: var(--card-color);
   border: none;
   overflow: hidden;
-  color: #fff;
+  color: var(--primary-color);
   font-size: 23px;
   width: 50px;
   height: 50px;

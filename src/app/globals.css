@@ -67,6 +67,11 @@ body {
   width: 100%;
   height: calc(100vh - 90px - 133px);
 }
+
+#blackphoto {
+  filter: grayscale(100%) !important;
+}
+
 @media (max-width: 1000px) {
   .container {
     padding-left: 40px;
