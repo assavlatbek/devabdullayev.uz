@@ -75,7 +75,7 @@ const HeroPage = () => {
                   <a
                     data-aos="flip-right"
                     data-aos-delay="2000"
-                    href="https://t.me/as_savlatbek"
+                    href="https://t.me/savlatbek_coder"
                     target="_blank"
                     rel="noreferrer"
                     className="icon"
