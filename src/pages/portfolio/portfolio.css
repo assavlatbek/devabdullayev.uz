@@ -1,0 +1,192 @@
+#portfolio {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.tab-headers {
+  display: flex;
+  justify-content: center;
+}
+
+.react-tabs__tab-list {
+  border: none !important;
+}
+
+.react-tabs__tab {
+  background: transparent !important;
+  transition: 0.3s all !important;
+  border: 1.5 solid transparent !important;
+  font-size: 19px !important;
+}
+
+.react-tabs__tab:hover {
+  letter-spacing: 2px !important;
+  color: #1b02ff !important;
+  background: transparent !important;
+}
+.react-tabs__tab--selected {
+  border-bottom: 1.5px solid #1b02ff !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  letter-spacing: 2px !important;
+  background: transparent !important;
+  color: #1b02ff !important;
+}
+
+.portfolio-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.portfolio-item {
+  background: #00000006 !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  backdrop-filter: blur(5px) !important;
+}
+
+.portfolio-item * {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.portfolio-item img {
+  height: 200px;
+}
+
+.portfolio-text {
+  padding: 10px !important;
+}
+
+.portfolio-skills {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 5px;
+}
+
+.portfolio-skills p:nth-of-type(1) {
+  color: #ff0202;
+}
+
+.portfolio-skills p:nth-of-type(2) {
+  color: #1b02ff;
+}
+
+.portfolio-skills p:nth-of-type(3) {
+  color: yellow;
+}
+
+.portfolio-skills p:nth-of-type(4) {
+  color: #ff02c0;
+}
+
+.portfolio-skills p:nth-of-type(5) {
+  color: #09ff00;
+}
+
+.github-profile {
+  font-size: 19px !important;
+  padding: 0.6em 1.6em !important;
+  width: auto !important;
+  display: flex !important;
+  gap: 10px !important;
+  text-decoration: none !important;
+}
+
+.c-button {
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0.4em 1.6em;
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.c-button svg {
+  fill: #1c69f9;
+}
+
+.c-button:hover .c-button .svg {
+  fill: #fff !important;
+}
+
+.c-button--gooey {
+  color: #1c69f9;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #1c69f9;
+  border-radius: 0;
+  position: relative;
+  transition: all 700ms ease;
+}
+
+.c-button--gooey .c-button__blobs {
+  height: 100%;
+  filter: url(#goo);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -3px;
+  right: -1px;
+  z-index: -1;
+}
+
+.c-button--gooey .c-button__blobs div {
+  background-color: #1c69f9;
+  width: 34%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  transform: scale(1.4) translateY(125%) translateZ(0);
+  transition: all 700ms ease;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(1) {
+  left: -5%;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(2) {
+  left: 30%;
+  transition-delay: 60ms;
+}
+
+.c-button--gooey .c-button__blobs div:nth-child(3) {
+  left: 66%;
+  transition-delay: 25ms;
+}
+
+.c-button--gooey:hover {
+  color: #fff;
+}
+.c-button--gooey:hover * {
+  fill: #fff !important;
+}
+
+.c-button--gooey:hover .c-button__blobs div {
+  transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+@media (max-width: 920px) {
+  .portfolio-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 650px) {
+  .portfolio-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
