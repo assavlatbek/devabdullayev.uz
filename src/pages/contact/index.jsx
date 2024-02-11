@@ -20,18 +20,18 @@ const ContactsPage = () => {
             </div>
             <ul class="info">
               <li>
-                <a href="tel:+55-47-99627-1397">
+                <a href="tel:+998904477515">
                   <i class="fas fa-phone"></i> +998 90 447 75 15
                 </a>
               </li>
               <li>
-                <a href="mailto:savlabtk009@gmail.com? subject=subject text">
+                <a href="mailto:savlabtk009@gmail.com">
                   <i class="far fa-envelope"></i> savlabtk009@gmail.com
                 </a>
               </li>
               <li>
-                <a href="https://maps.app.goo.gl/9D3RV531Z4m9TNQJ6">
-                  <i class="fas fa-map-pin"></i> Tashkent, Uzbekistan
+                <a href="#">
+                  <i class="fas fa-map-pin"></i> Samarkhand, Uzbekistan
                 </a>
               </li>
             </ul>
@@ -52,7 +52,7 @@ const ContactsPage = () => {
                     <i class="fab fa-github"></i>
                   </li>
                 </a>
-                <a href="https://t.me/as_savlatbek">
+                <a href="https://t.me/savlatbek_coder">
                   <li>
                     <i class="fab fa-telegram"></i>
                   </li>
@@ -61,23 +61,23 @@ const ContactsPage = () => {
             </div>
           </div>
           <div class="form-div">
-            <form>
+            <form action="https://formspree.io/f/xrgnqzda" method="POST">
               <div class="inputWithIcon">
                 <label for="name">Name</label>
                 <br />
-                <input type="text" id="name" />
+                <input type="text" id="name" name="name" />
                 <i class="fas fa-user"></i>
               </div>
               <div class="inputWithIcon">
                 <label for="mail">E-mail</label>
                 <br />
-                <input type="email" id="mail" />
+                <input type="email" id="mail"  name="email" />
                 <i class="far fa-envelope"></i>
               </div>
               <div>
                 <label for="message">Message</label>
                 <br />
-                <textarea id="message" placeholder="Message"></textarea>
+                <textarea id="message" placeholder="Message"  name="message"></textarea>
               </div>
               <center>
                 <button type="submit">Send</button>
